@@ -1,0 +1,24 @@
+{
+  "name": "learn-msw",
+  "version": "1.0.0",
+  "description": "msw mocking library 공부",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "msw": "^1.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "msw": {
+    "workerDirectory": "dist"
+  }
+}
